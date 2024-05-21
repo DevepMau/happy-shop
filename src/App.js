@@ -9,7 +9,9 @@ import { Box } from '@mui/material';
 
 function App() {
   return (
-    <Box classname='app'>
+    <Box
+      textAlign={'center'}
+    >
       <Router>
         <Header />
         <main>
