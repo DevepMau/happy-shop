@@ -6,12 +6,23 @@ import Home from './pages/Home';
 import Productos from './pages/Productos';
 import Carrito from './pages/Carrito';
 import { Box } from '@mui/material';
+import { useState } from 'react';
 
 function App() {
+  const [carrito, setCarrito] = useState([]);
+
+  const agregarAlCarrito = (producto) => {
+    setCarrito([...carrito, producto]);
+  };
+
   return (
     <Box
       textAlign={'center'}
     >
+      <Box>
+        <Productos agregarAlCarrito={agregarAlCarrito} />
+        <Carrito carrito={carrito} />
+      </Box>
       <Router>
         <Header />
         <main>

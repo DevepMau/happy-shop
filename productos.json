@@ -6,7 +6,7 @@
       "descripción": "Una camiseta cómoda y estilizada con el logo de HappyShop.",
       "precio": 19.99,
       "categoría": "Ropa",
-      "imagen": "https://example.com/camiseta.jpg",
+      "imagen": "/img/remeraSample.jpg",
       "stock": 50
     },
     {
@@ -15,7 +15,7 @@
       "descripción": "Una taza de cerámica con el logo de HappyShop.",
       "precio": 9.99,
       "categoría": "Accesorios",
-      "imagen": "https://example.com/taza.jpg",
+      "imagen": "/img/tazaSample.jpg",
       "stock": 100
     },
     {
@@ -24,7 +24,7 @@
       "descripción": "Un cuaderno para tus notas diarias con el logo de HappyShop.",
       "precio": 12.99,
       "categoría": "Papelería",
-      "imagen": "https://example.com/cuaderno.jpg",
+      "imagen": "/img/libretaSample.jpg",
       "stock": 75
     },
     {
@@ -33,7 +33,7 @@
         "descripción": "Un pantalon de gran calidad con el logo de HappyShop.",
         "precio": 12.99,
         "categoría": "Ropa",
-        "imagen": "https://example.com/cuaderno.jpg",
+        "imagen": "/img/pantalonSample.jpg",
         "stock": 75
       },
       {
@@ -42,7 +42,7 @@
         "descripción": "Un boligrafo para tus notas diarias con el logo de HappyShop.",
         "precio": 12.99,
         "categoría": "Papelería",
-        "imagen": "https://example.com/cuaderno.jpg",
+        "imagen": "/img/boligrafoSample.jpg",
         "stock": 75
       },
       {
@@ -51,7 +51,7 @@
         "descripción": "Un plato de cerámica con el logo de HappyShop.",
         "precio": 12.99,
         "categoría": "Accesorios",
-        "imagen": "https://example.com/cuaderno.jpg",
+        "imagen": "/img/platoSample.jpg",
         "stock": 75
       }
   ]

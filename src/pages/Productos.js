@@ -25,7 +25,7 @@ export default function Productos() {
                     <h2>{producto.nombre}</h2>
                     <p>{producto.descripcion}</p>
                     <p>Precio: ${producto.precio}</p>
-                    <img src={producto.iimage} alt={producto.nombre} />
+                    <img src={producto.imagen} alt={producto.nombre} />
                 </li>
             ))}
         </ul>
